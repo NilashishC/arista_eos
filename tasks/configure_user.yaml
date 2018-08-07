@@ -1,0 +1,5 @@
+---
+- set_fact:
+    eos_config_file: 'configure_user.j2'
+- include_tasks: load_config.yaml
+
